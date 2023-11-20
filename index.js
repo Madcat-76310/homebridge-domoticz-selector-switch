@@ -28,7 +28,7 @@ function DomoticzSelector(log, config)
 	this.pollingInterval = config.pollingInterval || 5000;
 
   // Custom variables
-  this.statusUrl      = this.domoticzURL + ":" + this.domoticzPort + "/json.htm?type=devices&rid=" + this.deviceIDX;
+  this.statusUrl      = this.domoticzURL + ":" + this.domoticzPort + "/json.htm?type=command&param=getdevices&rid=" + this.deviceIDX;
 	this.baseCommandUrl = this.domoticzURL + ":" + this.domoticzPort + "/json.htm?type=command&param=switchlight&idx=" + this.deviceIDX + "&switchcmd=Set%20Level&level=";
 	this.offUrl         = this.baseCommandUrl + this.offValue;
   this.nightUrl       = this.baseCommandUrl + this.nightValue;
