@@ -1,5 +1,5 @@
-# !!! Not maintained anymore by owner and not here too, but made correction to be avoid "deprecated error" with Domoticz !!!
-Since I do not use Homebridge and Domoticz anymore, this module is not maintained. Feel free to fork it and make the changes you need.
+# !!! Made correction to be avoid "deprecated error" with Domoticz !!!
+Problem with nex node versions.
 
 # homebridge-domoticz-selector-switch
 
