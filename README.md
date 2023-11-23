@@ -1,4 +1,4 @@
-# !!! Made correction to be avoid "deprecated error" with Domoticz !!!
+# !!! Made correction to avoid "deprecated error" with Domoticz !!!
 Old versions of the plugin causes problem with new node versions.
 
 # homebridge-domoticz-selector-switch
